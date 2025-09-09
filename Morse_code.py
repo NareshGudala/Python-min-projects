@@ -22,4 +22,10 @@ def text_to_morse(text):
     return morse_code
 
 name = input("Enter your name: ")
+
 print("Morse Code:", text_to_morse(name))
+
+
+output:
+Enter your name: Naresh
+Morse Code:  -. .- .-. . ... .... 
