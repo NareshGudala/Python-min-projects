@@ -19,3 +19,14 @@ speech.save(audio_file)
 # PLay the audio file
 playsound(audio_file)
 print("------------PLAY SOUND----------------")
+
+
+
+'''
+INPUT:
+
+(Doc_to_audio.txt):
+Python is a high-level, interpreted, object-oriented programming language known for its readability and versatility. 
+It was created by Guido van Rossum and first released in 1991. The language is named after the British comedy group Monty Python.
+
+'''
