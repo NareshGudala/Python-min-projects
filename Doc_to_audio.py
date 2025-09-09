@@ -1,8 +1,10 @@
+# pip install gtts and playsound
+
 from gtts import gTTS
 from playsound import playsound
 
 #path to the text file
-text_file = 'speech.txt'
+text_file = 'Doc_to_audio.txt'
 
 # Read the content of the text file
 with open(text_file, 'r') as file:
@@ -13,7 +15,7 @@ language = 'te'
 speech = gTTS(text = text, lang = 'te', slow = False)
 
 #save the speech to an audio file
-audio_file = 'speech.mp3'
+audio_file = 'Doc_to_audio.mp3'
 speech.save(audio_file) 
 
 # PLay the audio file
@@ -30,3 +32,4 @@ Python is a high-level, interpreted, object-oriented programming language known 
 It was created by Guido van Rossum and first released in 1991. The language is named after the British comedy group Monty Python.
 
 '''
+
